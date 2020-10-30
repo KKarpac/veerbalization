@@ -2,9 +2,8 @@
   <div class="hello">
     <h1>{{ msg }}</h1>
     <p>
-      For a guide and recipes on how to configure / customize this project,<br>
-      check out the
-      <a href="https://cli.vuejs.org" target="_blank" rel="noopener">vue-cli documentation</a>.
+      Hi im Bruno, and I'm an Electronic Music Producer and I got a music project called VRuno, I’m third generation from a musicians family and currently living from the music since 2015, I live in Berlin.
+I studied in Chile in UNIACC, Music and Production, at INACAP Sound Engineer and I have degree in Mastering on Digital Audio, all this experience is reduced to more than 10.000 hours of practice and over 350 gigs played on 19 countries in the world, and today I'm offering to help you to do the same, explore your options and follow your heart and that dream, let's move on!
     </p>
   </div>
 </template>
@@ -33,5 +32,9 @@ li {
 }
 a {
   color: #42b983;
+}
+.p {
+  font-family: "Merienda", Helvetica, Arial;
+  font-size: 20px;
 }
 </style>
