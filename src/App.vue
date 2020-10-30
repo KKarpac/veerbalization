@@ -1,7 +1,7 @@
 <template>
   <div id="app">
-    <img alt="Vue logo" src="./assets/logo.png">
-    <HelloWorld msg="Welcome to Your Vue.js App"/>
+    <img src="@/assets/studio.jpg">
+    <HelloWorld msg="This is Bruno's website"/>
   </div>
 </template>
 
@@ -17,6 +17,10 @@ export default {
 </script>
 
 <style>
+body {
+  background-image: url("assets/background.png");
+}
+
 #app {
   font-family: Avenir, Helvetica, Arial, sans-serif;
   -webkit-font-smoothing: antialiased;
@@ -25,4 +29,5 @@ export default {
   color: #2c3e50;
   margin-top: 60px;
 }
+
 </style>
