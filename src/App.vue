@@ -1,6 +1,5 @@
 <template>
   <div id="app">
-    <img src="@/assets/studio.jpg">
     <HelloWorld msg="Music Production"/>
   </div>
 </template>
@@ -11,7 +10,7 @@ import HelloWorld from './components/HelloWorld.vue'
 export default {
   name: 'App',
   components: {
-    HelloWorld
+    HelloWorld,
   }
 }
 </script>
