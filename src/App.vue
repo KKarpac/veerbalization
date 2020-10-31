@@ -1,16 +1,18 @@
 <template>
-  <div id="app">
-    <HelloWorld msg="Music Production"/>
+  <div>
+    <AppNav />
+    <router-view />
   </div>
 </template>
 
 <script>
-import HelloWorld from './components/HelloWorld.vue'
+import AppNav from './components/AppNav'
 
 export default {
   name: 'App',
   components: {
-    HelloWorld,
+    // Home,
+    AppNav
   }
 }
 </script>
@@ -23,17 +25,23 @@ export default {
 }
 
 body {
-  background-image: url("assets/background.png");
+  background-image: url("assets/background_cropped.png");
+  background-size: cover;
+  height: 1400px;
 }
 
 
 #app {
   font-family: "marinfordaf", Helvetica;
-  -webkit-font-smoothing: antialiased;
-  -moz-osx-font-smoothing: grayscale;
   text-align: center;
   color: whitesmoke;
   margin-top: 60px;
+  width: 1200px;
+  margin:0 auto;
 }
 
+a {
+  color: whitesmoke;
+  font-family: "marinfordaf"
+}
 </style>
