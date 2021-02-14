@@ -6,7 +6,11 @@
       <CardSmall title="M & M" descripion="Mixing & Masering"/>
       <CardSmall title="Music Label" descripion="KuyKuy" />
     </div>
-    <CardLarge title="Testimonials" imageName="profile_cropped.png" subtitle="Vruno" text="Hi im Bruno, and I'm an Electronic Music Producer and I got a music project called VRuno, I’m third generation from a musicians family and currently living from the music since 2015, I live in Berlin."/>
+    <CardLarge
+    title="Testimonials"
+    imageName="profile_cropped.png"
+    subtitle="Vruno"
+    :text="text"/>
   </div>
 </template>
 
@@ -22,11 +26,16 @@ export default {
     Banner,
     CardSmall,
     CardLarge
+  },
+  data() {
+    return {
+      text: "Hi im Bruno, and I'm an Electronic Music Producer and I got a music project called VRuno, I’m third generation from a musicians family and currently living from the music since 2015, I live in Berlin."
+    }
   }
 }
 </script>
 
-<style>
+<style scoped>
 .cards-container {
   display: flex;
   justify-content: center;
